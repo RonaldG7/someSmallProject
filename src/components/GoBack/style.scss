@@ -1,0 +1,25 @@
+@import '../../assets/styles/variables';
+@import '../../assets/styles/media';
+
+.go_back {
+  position: relative;
+  z-index: 1;
+  height: 40px;
+  background-color: $grey-background;
+  padding: 0.5em 0;
+
+
+  &-content {
+    display: flex;
+    justify-content: space-between;
+
+    button {
+      display: flex;
+      align-items: center;
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+
+  }
+}
